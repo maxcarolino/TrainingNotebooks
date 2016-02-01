@@ -22,20 +22,28 @@ Type "copyright", "credits" or "license" for more information.
 
 If you already have Python installed, make sure you have the python package manager, **pip**. If you need to install pip, just follow the instructions from the [pip documentation](https://pip.pypa.io/en/stable/installing/).
 
-You can check if pip is installed by typing `pip` in the command line. If it gives you the help screen, then you already have pip. 
+You can check if pip is installed by typing `pip` in the command line. If it gives you the help screen, then you already have pip:
+
+```
+Usage:   
+  pip <command> [options]
+
+Commands:
+```
 
 Then just `pip3 install jupyter`. Please refer to the [documentation](http://jupyter.readthedocs.org/en/latest/install.html#using-pip) if you encounter any problems.
 
-```
-Some of Jupyter’s dependencies may require compilation, in which case you would need the ability to compile Python C-extensions. This means a C compiler and the Python headers. On Debian-based systems (e.g. Ubuntu), you can get this with:
+> Some of Jupyter’s dependencies may require compilation, in which case you would need the ability to compile Python C-extensions. This means a C compiler and the Python headers. On Debian-based systems (e.g. Ubuntu), you can get this with:
 
-> apt-get install build-essential python3-dev
-And on Fedora-based systems (e.g. Red Hat, CentOS):
+> `apt-get install build-essential python3-dev`
 
-> yum groupinstall 'Development Tools'
-> yum install python3-devel
+> And on Fedora-based systems (e.g. Red Hat, CentOS):
 
-(Use python instead of python3 for legacy Python 2.)
-```
+> `yum groupinstall 'Development Tools'`
+
+> `yum install python3-devel`
+
+> (Use python instead of python3 for legacy Python 2.)
+
 
 To open the notebooks, just go to the TrainingNotebooks directory (your local git repository) using the command line and type `ipython notebook`. It should open a browser page with links to folders of training notebooks.
