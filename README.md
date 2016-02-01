@@ -39,7 +39,7 @@ Commands:
 
 ## Jupyter
 
-Then just `pip3 install jupyter`. Please refer to the [documentation](http://jupyter.readthedocs.org/en/latest/install.html#using-pip) if you encounter any problems.
+Then just `pip3 install jupyter`. Please refer to the [Jupyter documentation](http://jupyter.readthedocs.org/en/latest/install.html#using-pip) if you encounter any problems.
 
 > Some of Jupyter’s dependencies may require compilation, in which case you would need the ability to compile Python C-extensions. This means a C compiler and the Python headers. On Debian-based systems (e.g. Ubuntu), you can get this with:
 
@@ -55,6 +55,8 @@ Then just `pip3 install jupyter`. Please refer to the [documentation](http://jup
 
 ## Git
 
+I assume you already have git installed. Just in case you don't, please refer to the instructions in the [Git documentation](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
 Once you already have Jupyter installed, you just need to clone this repository by typing:
 
 `git clone https://github.com/KLabCyscorpions/TrainingNotebooks.git`
@@ -63,5 +65,6 @@ Enter your github credentials when asked and you should have a local copy of the
 
 ## Notebook
 
-To open the notebooks, just `cd TrainingNotebooks` and type `ipython notebook`. It should open a browser page with links to folders of training notebooks.
+To open the notebooks, just type `ipython notebook`. You should be redirected to a browser page with links to folders of training notebooks.
 
+Browse the TrainingNotebooks subdirectories. Notebooks have a `.ipnb` extension.
