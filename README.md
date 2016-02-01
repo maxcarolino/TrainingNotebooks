@@ -55,7 +55,7 @@ Then just `pip3 install jupyter`. Please refer to the [Jupyter documentation](ht
 
 ## Git
 
-I assume you already have git installed. Just in case you don't, please refer to the instructions in the [Git documentation](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+We assume you already have `git` installed. Just in case you don't, please refer to the instructions in the [Git documentation](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 Once you already have Jupyter installed, you just need to clone this repository by typing:
 
