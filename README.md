@@ -9,6 +9,9 @@ The main requirements for using these notebooks are:
 * Python 3.x
 * pip
 * Jupyter
+* git
+
+## Python
 
 If you don't have **Python 3** installed yet, please download it from [Python.org](https://www.python.org/).
 
@@ -20,6 +23,8 @@ Type "copyright", "credits" or "license" for more information.
 >>>
 ```
 
+## Pip
+
 If you already have Python installed, make sure you have the python package manager, **pip**. If you need to install pip, just follow the instructions from the [pip documentation](https://pip.pypa.io/en/stable/installing/).
 
 You can check if pip is installed by typing `pip` in the command line. If it gives you the help screen, then you already have pip:
@@ -29,7 +34,10 @@ Usage:
   pip <command> [options]
 
 Commands:
+...
 ```
+
+## Jupyter
 
 Then just `pip3 install jupyter`. Please refer to the [documentation](http://jupyter.readthedocs.org/en/latest/install.html#using-pip) if you encounter any problems.
 
@@ -45,5 +53,15 @@ Then just `pip3 install jupyter`. Please refer to the [documentation](http://jup
 
 > (Use python instead of python3 for legacy Python 2.)
 
+## Git
 
-To open the notebooks, just go to the TrainingNotebooks directory (your local git repository) using the command line and type `ipython notebook`. It should open a browser page with links to folders of training notebooks.
+Once you already have Jupyter installed, you just need to clone this repository by typing:
+
+`git clone https://github.com/KLabCyscorpions/TrainingNotebooks.git`
+
+Enter your github credentials when asked and you should have a local copy of the repository. 
+
+## Notebook
+
+To open the notebooks, just `cd TrainingNotebooks` and type `ipython notebook`. It should open a browser page with links to folders of training notebooks.
+
