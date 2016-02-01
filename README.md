@@ -1,4 +1,4 @@
-# KLab Cyscorpion Training Notebooks
+# KLab Cyscorpions Training Notebooks
 
 Feb 1, 2016
 
