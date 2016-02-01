@@ -67,4 +67,4 @@ Enter your github credentials when asked and you should have a local copy of the
 
 To open the notebooks, just type `ipython notebook`. You should be redirected to a browser page with links to folders of training notebooks.
 
-Browse the TrainingNotebooks subdirectories. Notebooks have a `.ipnb` extension.
+Browse the TrainingNotebooks subdirectories. Notebooks have a `.ipynb` extension.
