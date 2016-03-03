@@ -28,7 +28,7 @@ def hello_marquee(name):
     Return the result.
     """
     context = {
-        'name': name.capitalize()
+        'name': name
     }
     return render_template('hello.html', **context)
 
