@@ -2,7 +2,7 @@
 
 Feb 1, 2016
 
-These Jupyter (iPython) notebooks are used internally at Klab Cyscorpions for Python training. We are making them publicly available so that anyone can benefit from them, even students or non-employees. Feel free to star, clone or fork the repo for your own use. If you feel that something can be improved, feel free to open up an issue with the notebook name in the title for easy identification. We also welcome pull requests.
+These Jupyter (IPython) notebooks are used internally at Klab Cyscorpions for Python training. We are making them publicly available so that anyone can benefit from them, even students or non-employees. Feel free to star, clone or fork the repo for your own use. If you feel that something can be improved, feel free to open up an issue with the notebook name in the title for easy identification. We also welcome pull requests.
 
 The main requirements for using these notebooks are:
 
@@ -13,7 +13,7 @@ The main requirements for using these notebooks are:
 
 ## Python
 
-If you don't have **Python 3** installed yet, please download it from [Python.org](https://www.python.org/).
+If you don't have **Python 3.x** installed yet, please download it from [Python.org](https://www.python.org/).
 
 You can check if Python is installed by typing `python` in the command line. If it goes to the Python interpreter, then you already have Python installed. You can check the version from the very first line after your command. You should see something like:
 
