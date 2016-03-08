@@ -1,4 +1,4 @@
-from flask import Flask, flash, redirect, render_template, request, url_for
+from flask import Flask, render_template, request
 from flask.ext.wtf import Form
 from wtforms import PasswordField, TextField, validators
 app = Flask(__name__)
@@ -13,32 +13,18 @@ class RegistrationForm(Form):
     ])
     confirm = PasswordField('Repeat Password')
 
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
-
-@app.route('/register', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def register():
-    print('register1')
     form = RegistrationForm(request.form or None)
-    print('register2')
+    context = {
+        'form': form,
+    }
 
-    # if request.method == 'POST' and form.validate():
     if form.validate_on_submit():  # this method is available in `from flask.ext.wtf import Form`
-        print('register3')
+    # if request.method == 'POST' and form.validate():
+        context['form_data'] = form.data
 
-        # do something with the data
-        # here, we use it to instantiate and save an imaginary User object
-        print(dir(form))
-        # user = User(form.username.data, form.email.data, form.password.data)
-        # user.save()
-
-        # flash('Thanks for registering')
-        print('register4')
-        return redirect(url_for('login'))
-
-    print('register5')
-    return render_template('register.html', form=form)
+    return render_template('register.html', **context)
 
 if __name__ == '__main__':
     app.secret_key = 'SECRET_KEY'
