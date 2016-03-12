@@ -36,8 +36,8 @@ def hello_marquee(name):
 @app.route('/error')
 def error():
     """Return nothing. Responds with the debugger screen."""
-    #return
-    return redirect(url_for('hello_world'))
+    return
+    # return redirect(url_for('hello_world'))
 
 
 class API(MethodView):
