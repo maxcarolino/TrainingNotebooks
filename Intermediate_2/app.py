@@ -24,6 +24,8 @@ def register():
     # if request.method == 'POST' and form.validate():
         context['form_data'] = form.data
 
+    # import pdb; pdb.set_trace()
+    # import ipdb; ipdb.set_trace()
     return render_template('register.html', **context)
 
 if __name__ == '__main__':
