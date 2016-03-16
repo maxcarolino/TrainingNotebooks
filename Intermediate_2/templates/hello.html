@@ -1,0 +1,14 @@
+<!doctype html>
+<title>Hello from Flask</title>
+
+{% if name %}
+
+  <marquee><h1>Hello {{ name }}!</h1></marquee>
+  {# <p>Marquee ftw!</p> #}
+  <small>Do not try this at home!</small>
+
+{% else %}
+
+  <h1>Hello World!</h1>
+
+{% endif %}
